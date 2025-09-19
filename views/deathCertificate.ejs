@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Death Certificate</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navv">
+      <img src="/img/nav.jpeg" alt="Gov Logo" class="navv">
+      
+    </div>
+   
+  </nav>
+  <div class="certificate-container">
+  
+   
+   
+
+    <table class="details-table">
+      <tr>
+        <th>Registration Number</th>
+        <td><%= 1234567890 %></td>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td><%= "John Doe" %></td>
+      </tr>
+      <tr>
+        <th>Date of Death</th>
+        <td><%= "2023-01-01" %></td>
+      </tr>
+      <tr>
+        <th>Mother's Name</th>
+        <td><%= "Jane Doe" %></td>
+      </tr>
+      <tr>
+        <th>Father's Name</th>
+        <td><%= "Richard Doe" %></td>
+      </tr>
+      <tr>
+        <th>Registration Date</th>
+        <td><%= "2022-12-31" %></td>
+      </tr>
+    </table>
+
+    
+  </div>
+<%- include("partial/footer") %>
+
+
+</body>
+</html>
